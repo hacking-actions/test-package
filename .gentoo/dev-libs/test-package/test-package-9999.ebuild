@@ -25,7 +25,7 @@ RDEPEND="sys-apps/util-linux"
 DEPEND="test? ( dev-util/bats-assert )"
 
 src_test() {
-#    bats --tap tests || die "Tests failed"
+    echo
 }
 
 src_install() {
