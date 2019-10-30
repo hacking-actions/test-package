@@ -9,3 +9,5 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: hacking-gentoo/action-ebuild-release@master
+      with:
+        overlay: hacking-actions/overlay-playground    
