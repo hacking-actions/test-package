@@ -22,7 +22,7 @@ SLOT="0"
 RESTRICT="!test? ( test )"
 
 RDEPEND="sys-apps/util-linux"
-DEPEND="test? ( dev-util/bats-assert )"
+DEPEND="test? ( ${RDEPEND} )"
 
 src_test() {
     echo
