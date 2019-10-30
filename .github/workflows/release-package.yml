@@ -2,6 +2,7 @@ name: Release Package
 
 on:
   release:
+    types: [published]
 
 jobs:
   tests:
