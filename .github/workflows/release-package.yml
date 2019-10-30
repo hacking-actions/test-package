@@ -12,3 +12,5 @@ jobs:
     - uses: hacking-gentoo/action-ebuild-release@master
       with:
         overlay: hacking-actions/overlay-playground    
+      env:
+        GHA_DEPLOY_KEY: ${{ secrets.GHA_DEPLOY_KEY }}
