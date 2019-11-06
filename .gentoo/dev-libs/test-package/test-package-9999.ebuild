@@ -4,7 +4,7 @@
 EAPI=7
 
 DESCRIPTION="A test package"
-HOMEPAGE="https://github.com/hacking-actions/test-package"
+HOMEPAGE="https://github.com/GITHUB_REPOSITORY/${PN}"
 LICENSE="MIT"
 
 if [[ ${PV} = *9999* ]]; then
@@ -12,7 +12,7 @@ if [[ ${PV} = *9999* ]]; then
     EGIT_REPO_URI="https://github.com/GITHUB_REPOSITORY"
     EGIT_BRANCH="GITHUB_REF"
 else
-    SRC_URI="https://github.com/hacking-actions/test-package/archive/${P}.tar.gz"
+    SRC_URI="https://github.com/GITHUB_REPOSITORY/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 fi
 
 KEYWORDS="amd64 x86"
