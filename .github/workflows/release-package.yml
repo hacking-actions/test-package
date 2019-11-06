@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: hacking-gentoo/action-ebuild-release@master
+    - uses: hacking-gentoo/action-ebuild-release@next
       with:
         overlay: hacking-actions/overlay-playground    
       env:
