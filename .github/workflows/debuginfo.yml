@@ -1,0 +1,23 @@
+name: Debug Info
+
+on:
+  push:
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: hacking-actions/action-debuginfo@master
+    - name: Archive debug information (environment)
+      uses: actions/upload-artifact@v1
+      with:
+        name: debug-info-env
+        path: env.txt
+    - name: Archive debug information (event)
+      uses: actions/upload-artifact@v1
+      with:
+        name: debug-info-event
+        path: ${GITHUB_EVENT_PATH}
