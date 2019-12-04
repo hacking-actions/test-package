@@ -1,9 +1,9 @@
 name: Debug Info
 
 on:
-  push:
-    paths-ignore:
-      - 'README.md'
+#  push:
+#    paths-ignore:
+#      - 'README.md'
 
 jobs:
   tests:
