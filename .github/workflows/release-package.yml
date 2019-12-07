@@ -11,6 +11,6 @@ jobs:
     - uses: actions/checkout@master
     - uses: hacking-gentoo/action-ebuild-release@next
       with:
-        auth_token: ${{ secrets.GITHUB_TOKEN }}
+        auth_token: ${{ secrets.PR_TOKEN }}
         deploy_key: ${{ secrets.GHA_DEPLOY_KEY }}
         overlay_repo: hacking-actions/overlay-playground    
