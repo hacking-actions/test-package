@@ -3,7 +3,7 @@
 
 EAPI=7
 
-DESCRIPTION="A test package"
+DESCRIPTION="A testing package"
 HOMEPAGE="https://github.com/GITHUB_REPOSITORY"
 LICENSE="MIT"
 
