@@ -11,7 +11,7 @@
             <name>Default Package Maintainer</name>
             <email>default-package-maintainer@mad-hacking.net</email>
         </maintainer>
-        <bugs-to>http://bugs.mad-hacking.net/enter_bug.cgi?product=Software&amp;component=dev-libs/hacking-bash-lib</bugs-to>
-        <doc>http://www.mad-hacking.net/software/linux/agnostic/hacking-bash-lib/index.xml</doc>
+        <bugs-to>https://github.com/hacking-actions/test-package/issues</bugs-to>
+        <doc>https://github.com/hacking-actions/test-package</doc>
     </upstream>
 </pkgmetadata>
