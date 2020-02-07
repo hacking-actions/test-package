@@ -6,6 +6,9 @@ jobs:
   action-ebuild-keyword:
     runs-on: ubuntu-latest
     steps:
+    # Check out the repository
+    - uses: actions/checkout@master
+
     # Prepare the environment
     - name: Prepare
       id: prepare
