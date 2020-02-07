@@ -10,7 +10,6 @@ on:
       - 'README.md'
       - 'LICENSE'
       - '.github/**'
-    
 
 jobs:
   tests:
