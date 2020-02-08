@@ -1,6 +1,9 @@
 name: Ebuild Keyword
 
-on: repository_dispatch
+on:
+  repository_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
 
 jobs:
   action-ebuild-keyword:
